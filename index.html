@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Antes de Clicar é um projeto de extensão em ADS. Conheça a oficina e pratique como verificar mensagens suspeitas.">
+  <meta name="theme-color" content="#f8f5ec">
+  <title>Antes de Clicar | Oficina de segurança digital</title>
+  <link rel="icon" href="marca.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="oficina.js" defer></script>
+</head>
+<body id="inicio">
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="largura barra">
+      <a class="marca" href="#inicio">
+        <img src="marca.svg" width="36" height="36" alt="">
+        <span>Antes de Clicar</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#projeto">O projeto</a>
+        <a href="#verificar">Guia rápido</a>
+        <a href="#pratica">Prática</a>
+        <a href="#conversa">Entrevista</a>
+      </nav>
+      <button type="button" class="botao botao-contorno tv-atalho" data-modo-tv hidden>
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="13" rx="2"/>
+          <path d="M8 21h8m-4-4v4"/>
+        </svg>
+        Modo TV
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="largura abertura" aria-labelledby="titulo">
+      <div class="abertura-texto">
+        <p class="chamada"><span></span> Projeto de extensão em ADS</p>
+        <h1 id="titulo">Mensagem suspeita? <em>Confirme o pedido.</em></h1>
+        <p class="introducao">Recebeu uma cobrança, um pedido de dinheiro ou uma solicitação de código? Aprenda a identificar sinais de golpe e verifique o pedido por um canal que você já conhece.</p>
+        <div class="abertura-acoes">
+          <a class="botao botao-escuro" href="#projeto">Conhecer a proposta <span aria-hidden="true">↓</span></a>
+          <a class="botao botao-contorno" href="#pratica">Praticar com exemplos</a>
+        </div>
+      </div>
+
+      <div class="abertura-visual" aria-hidden="true">
+        <div class="visual-cabecalho">Exemplo fictício</div>
+        <div class="celular">
+          <div class="celular-topo">
+            <span class="avatar">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="8" r="3"/>
+                <path d="M5.5 20v-1a6.5 6.5 0 0 1 13 0v1"/>
+              </svg>
+            </span>
+            <span><strong>Mensagem recebida</strong><small>Número desconhecido</small></span>
+          </div>
+          <div class="balao">Um número novo diz ser de um familiar e pede uma transferência <mark>com urgência</mark>.</div>
+          <div class="pista">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="9"/><path d="M12 7.5v5m0 3v1"/>
+            </svg>
+            A pressa é um sinal de alerta.
+          </div>
+        </div>
+        <p class="visual-rodape">Como você confirmaria esse pedido?</p>
+      </div>
+    </section>
+
+    <section class="projeto" id="projeto" aria-labelledby="titulo-projeto">
+      <div class="largura projeto-grade">
+        <div>
+          <p class="etiqueta">Para Transformar o Eu</p>
+          <h2 id="titulo-projeto">A proposta da oficina</h2>
+          <p class="introducao-secao">O <strong>Antes de Clicar</strong> é um projeto de extensão de Análise e Desenvolvimento de Sistemas voltado a adultos da comunidade em Portugal. O objetivo é praticar como lidar com cobranças e pedidos inesperados no celular.</p>
+          <p class="ods"><strong>ODS 4 · Educação de qualidade</strong><br>O grupo aprende a identificar um sinal de alerta, pausar antes de agir e escolher um canal confiável para confirmar o pedido.</p>
+        </div>
+
+        <aside class="oficina-etapas" aria-labelledby="titulo-etapas">
+          <h3 id="titulo-etapas">Como será o encontro</h3>
+          <ol>
+            <li><strong>Escuta.</strong> O grupo conta como costuma reagir a mensagens que geram dúvida.</li>
+            <li><strong>Prática.</strong> Apresentamos situações fictícias na TV. O grupo discute o que faria antes de ver a resposta.</li>
+            <li><strong>Avaliação.</strong> Comparamos as respostas a dois casos, um no início e outro no fim, para observar como cada pessoa verifica um pedido.</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="passos" id="verificar" aria-labelledby="titulo-passos">
+      <div class="largura">
+        <p class="etiqueta">Guia rápido</p>
+        <h2 id="titulo-passos">Três passos antes de agir</h2>
+        <p class="introducao-secao">Use este checklist quando receber um pedido inesperado.</p>
+        <ol class="grade-passos">
+          <li class="passo">
+            <span class="numero" aria-hidden="true">01</span>
+            <h3>Pare</h3>
+            <p>Dê a si mesmo tempo para pensar. Deixe o link ou o pagamento para depois da verificação.</p>
+            <label><input type="checkbox"> Pausei antes de agir.</label>
+          </li>
+          <li class="passo">
+            <span class="numero" aria-hidden="true">02</span>
+            <h3>Observe</h3>
+            <p>Procure sinais como urgência, número desconhecido ou pedido de dinheiro, senha ou código.</p>
+            <label><input type="checkbox"> Observei os sinais de alerta.</label>
+          </li>
+          <li class="passo">
+            <span class="numero" aria-hidden="true">03</span>
+            <h3>Confirme</h3>
+            <p>Abra o aplicativo oficial por conta própria ou ligue para um número que você já conhece. Guarde senhas e códigos para você.</p>
+            <label><input type="checkbox"> Escolhi um canal confiável.</label>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="largura secao" id="pratica" aria-labelledby="titulo-pratica">
+      <div class="cabecalho-secao">
+        <div>
+          <p class="etiqueta">Situações fictícias</p>
+          <h2 id="titulo-pratica">O que você faria?</h2>
+          <p class="introducao-secao">Leia cada situação, pense em como confirmaria o pedido e depois abra a resposta comentada.</p>
+        </div>
+        <button type="button" class="botao botao-contorno" data-modo-tv hidden>Abrir modo TV <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="grade-casos">
+        <article class="caso" data-caso>
+          <p class="etiqueta caso-indice">01 / Contato novo</p>
+          <h3>Pedido de um familiar</h3>
+          <p class="mensagem-exemplo">Um número novo diz ser de um familiar e pede uma transferência urgente.</p>
+          <details>
+            <summary>Ver resposta comentada</summary>
+            <p>O número novo e a pressa merecem atenção. Antes de pagar, ligue para o familiar pelo número que você já tinha salvo.</p>
+          </details>
+        </article>
+        <article class="caso" data-caso>
+          <p class="etiqueta caso-indice">02 / Pedido inesperado</p>
+          <h3>Código de verificação</h3>
+          <p class="mensagem-exemplo">Uma mensagem diz ser do banco e pede o código que acabou de chegar por SMS.</p>
+          <details>
+            <summary>Ver resposta comentada</summary>
+            <p>Mantenha o código em segredo. Para saber se existe um problema, abra o aplicativo oficial do banco ou ligue para o número oficial disponível nele.</p>
+          </details>
+        </article>
+        <article class="caso" data-caso>
+          <p class="etiqueta caso-indice">03 / Pressão para pagar</p>
+          <h3>Oferta com pressa</h3>
+          <p class="mensagem-exemplo">Uma mensagem oferece um produto com desconto e exige pagamento imediato para reservar.</p>
+          <details>
+            <summary>Ver resposta comentada</summary>
+            <p>A pressão para pagar rápido é um sinal de alerta. Consulte a oferta pelo site ou pelo aplicativo oficial da loja, acessado por conta própria.</p>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section class="conversa" id="conversa" aria-labelledby="titulo-conversa">
+      <div class="largura conversa-grade">
+        <div>
+          <p class="etiqueta">Para quem conduz a oficina</p>
+          <h2 id="titulo-conversa">Roteiro da entrevista</h2>
+          <p class="introducao-secao">Comece com uma conversa curta. Peça que cada pessoa fale sobre o que costuma fazer quando tem dúvida sobre uma mensagem.</p>
+          <blockquote>“Posso anotar um resumo da sua resposta sem registrar seu nome?”</blockquote>
+        </div>
+        <div>
+          <ol class="perguntas">
+            <li>Você se lembra de alguma mensagem que deixou você em dúvida? O que chamou sua atenção?</li>
+            <li>O que você fez quando recebeu a mensagem?</li>
+            <li>Por qual canal você tentou ou tentaria confirmar o pedido?</li>
+            <li>Em que parte você gostaria de ter mais ajuda?</li>
+          </ol>
+          <p class="nota-conversa">Anote apenas o que a pessoa quiser compartilhar. Os relatos podem ser resumidos sem mostrar conversas, senhas, códigos ou dados de contas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="largura secao secao-galeria" aria-labelledby="titulo-galeria" id="galeria" hidden>
+      <div class="galeria-caixa">
+        <p class="etiqueta">Documentário fotográfico</p>
+        <h2 id="titulo-galeria">Galeria do encontro</h2>
+          <p class="introducao-secao">Selecione até três fotos autorizadas para exibir ao grupo. As imagens ficam nesta aba e somem ao recarregar a página.</p>
+        <div class="galeria-controles">
+          <div>
+            <label for="fotos">Escolher fotos do aparelho</label>
+            <input id="fotos" type="file" accept="image/jpeg,image/png,image/webp" multiple aria-describedby="fotos-formatos">
+            <small id="fotos-formatos">Formatos JPEG, PNG e WebP.</small>
+          </div>
+          <button type="button" class="botao botao-contorno" id="limpar-fotos" hidden>Limpar galeria</button>
+        </div>
+        <p id="fotos-status" role="status"></p>
+        <div class="fotos-grade" id="fotos-grade"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="largura barra-rodape">
+      <div>
+        <strong>Antes de Clicar</strong>
+        <p>Para Transformar o Eu · Projeto de extensão em ADS</p>
+      </div>
+      <ul aria-label="Fontes de orientação">
+        <li><a href="https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes.pdf">Cartilha do CERT.br</a></li>
+        <li><a href="https://www.gov.br/cisc/pt-br/alertas-de-golpes-digitais/golpistas-enviam-mensagens-no-whatsapp-se-passando-por-entidades-do-governo">Alerta do Gov.br</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <dialog class="tv" id="tv" aria-labelledby="titulo-tv">
+    <div class="tv-conteudo">
+      <div class="tv-cabecalho">
+        <div>
+          <p class="etiqueta">Antes de Clicar · Modo TV</p>
+          <h2 id="titulo-tv">Prática em grupo</h2>
+        </div>
+        <button type="button" class="botao botao-claro" id="sair-tv">Sair do modo TV</button>
+      </div>
+      <p class="tv-pergunta">O que chamou sua atenção? O que você faria primeiro? Como confirmaria o pedido?</p>
+      <div id="caso-tv"></div>
+      <div class="tv-navegacao">
+        <button type="button" class="botao botao-claro" id="caso-anterior">Anterior</button>
+        <span id="caso-posicao" role="status"></span>
+        <button type="button" class="botao botao-ambar" id="caso-seguinte">Próximo</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
